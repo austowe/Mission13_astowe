@@ -9,7 +9,7 @@ function MovieData() {
         <h3>Joel Hilton's Movie Collection</h3>
       </div>
       <div>
-        <table>
+        <table className="table">
           <thead>
             <tr>
               <th>Title</th>
@@ -35,3 +35,5 @@ function MovieData() {
     </>
   );
 }
+
+export default MovieData;

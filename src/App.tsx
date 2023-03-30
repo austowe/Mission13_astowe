@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import MovieData from './movies';
 
 class Welcome extends React.Component {
   render() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <Welcome />
+      <MovieData />
     </div>
   );
 }
